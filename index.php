@@ -76,9 +76,16 @@
 
 
 
-<!-- FOLLOW US SECTION  -->
-<?php include "assets/components/HomePage/follow-us.php"; ?>
-<!-- FOLLOW US SECTION  -->
+<!-- FACTS SECTION  -->
+<?php include "assets/components/HomePage/facts.php"; ?>
+<!-- FACTS SECTION  -->
+
+
+
+
+<!-- FOOTER SECTION  -->
+<?php include "assets/components/Common/footer.php"; ?>
+<!-- FOOTER SECTION  -->
 
 
 
