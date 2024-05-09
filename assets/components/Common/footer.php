@@ -86,13 +86,14 @@
             </div>
 
         </div>
-        <div class="footer-foot">
+ 
+    </div>
+           <div class="footer-rights">
             <div class="rights">
                 <p>Digiigrow © 2024. All rights reserved. Terms of use and Privacy Policy</p>
             </div>
             <div class="design">
-                <p>Design & Developed by <a href=""></a>Digiigrow</p>
+                <p>Design & Developed by <a href="https://www.digiigrow.com/">Digiigrow</a></p>
             </div>
         </div>
-    </div>
 </footer>

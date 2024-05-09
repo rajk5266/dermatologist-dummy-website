@@ -2,12 +2,24 @@ window.addEventListener("DOMContentLoaded", () => {
   // checkPage();
   // console.log(window.innerWidth)
   changeHeaderValue();
+  NavbarFixed();
   document
     .getElementById("navbar-toggler-button")
     .addEventListener("click", () => {
       openSideNav();
     });
 });
+
+function NavbarFixed() {
+  const navbar = document.getElementById("header-menu");
+  window.addEventListener("scroll", () => {
+    if (window.scrollY > 70) {
+      navbar.classList.add("navbar-fixed");
+    } else {
+      navbar.classList.remove("navbar-fixed");
+    }
+  });
+}
 
 function openSideNav() {
   document
@@ -90,8 +102,7 @@ function changeStyle(name) {
   });
 }
 
-
-// HEADER DYNAMIC CONTENT 
+// HEADER DYNAMIC CONTENT
 const dynamicContents = ["service-1", "service-2", "service-3", "service-4"];
 
 function changeHeaderValue() {
@@ -107,8 +118,7 @@ function changeHeaderValue() {
     headerSpan.classList.remove("span-animation");
   }, 1500);
 }
-// HEADER DYNAMIC CONTENT 
-
+// HEADER DYNAMIC CONTENT
 
 $(document).ready(function () {
   $(".testimonials").slick({

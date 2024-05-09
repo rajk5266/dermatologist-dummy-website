@@ -12,13 +12,13 @@
                     <a href="/">Home</a>
                     <a href="about.php">About</a>
                     <a href="gallery.php">Gallery</a>
-                    <a class="" id="sidebar-dropdown-btn">Services <i class="fa fa-angle-double-down"
+                    <a href="services.php" class="" id="sidebar-dropdown-btn">Services <i class="fa fa-angle-double-down"
                             aria-hidden="true"></i></a>
-                    <div class="sidebar-dropdown-content" id="sidebar-dropdown-content">
+                    <!-- <div class="sidebar-dropdown-content" id="sidebar-dropdown-content">
                         <a class="dropdown-item" href="dental-services.php">Treatment 1</a>
                         <a class="dropdown-item" href="cosmetics&facial.php">Treatment 2</a>
                         <a class="dropdown-item" href="haircare.php">Treatment 3</a>
-                    </div>
+                    </div> -->
                     <a href="contact-us.php">Contact</a>
                 </div>
             </div>
@@ -67,8 +67,8 @@
                     </li>
 
                     <li class="nav-hyperlink dropdown">
-                        <a class="link" href="">Services <i class="fa fa-angle-double-down" aria-hidden="true"></i></a>
-                        <ul class="submenu">
+                        <a class="link" href="services.php">Services <i class="fa fa-angle-double-down" aria-hidden="true"></i></a>
+                        <!-- <ul class="submenu">
                             <li class="nested-nav-hyperlink">
                                 <a href="dental-services.php">lorem sipsum <i class="fa fa-angle-double-right"
                                         aria-hidden="true"></i></a>
@@ -103,8 +103,8 @@
                                 <a href="haircare.php">lorem <i class="fa fa-angle-double-right"
                                         aria-hidden="true"></i></a>
                             </li>
-                            <!-- Add more submenu items as needed -->
-                        </ul>
+                   
+                        </ul> -->
                     </li>
 
                     <li class="nav-hyperlink">
@@ -116,7 +116,7 @@
 
 
                     <li class="nav-hyperlink">
-                        <a class="link" href="contact-us.php">Contact</a>
+                        <a class="link" href="contact.php">Contact</a>
                     </li>
                 </ul>
             </div>

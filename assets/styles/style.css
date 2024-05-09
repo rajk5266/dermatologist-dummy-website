@@ -106,6 +106,13 @@ img {
     background-color: white; */
 }
 
+.navbar-fixed{
+  position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 99;
+}
 .header-container .header-menu .logo img {
   width: 65px;
   height: auto;
@@ -754,6 +761,8 @@ img {
 }
 /* TESTIMONIALS  */
 
+
+
 /* FACTS  */
 .facts{
   background-color: #f4f4f4;
@@ -838,4 +847,164 @@ footer form .inputs button{
     padding: 4px 6px;
 }
 
+footer .footer-rights{
+  padding: 1rem 0;
+  background-color: #ebebeb;
+  text-align: center;
+}
 /* FOOTER  */
+
+
+
+
+
+
+/* SERVICES PAGE  */
+.services-page .row .col{
+  padding: 0;
+  margin: auto;
+  text-align: center;
+}
+
+@media(max-width: 992px){
+  .services-page .content .description .descrip{
+    display: none;
+  }
+}
+
+.services-page .content .description .heading p
+{
+  font-family: Recoleta-font;
+  font-size: 25px;
+
+}
+
+
+
+
+/* SERVICES BANNER  */
+
+/* WHAT WE DO  */
+.what-we-do{
+  background-color: #f4f4f4;
+}
+.what-we-do .main {
+  background-color: #f5ddfe52;
+  padding: 1rem;
+}
+@media(max-width: 767px){
+  .what-we-do{
+    background-color: #f5ddfe52;
+  }
+}
+@media (min-width: 992px) {
+  .what-we-do .main {
+    width: 90%;
+    padding: 3rem 2rem;
+    margin-left: auto;
+  }
+}
+@media(min-width: 992px){
+  .what-we-do .main{
+    position: relative;
+    padding: 3rem;
+  }
+  .what-we-do .main .content{
+    position: absolute;
+    left: -5%;
+    top: 5%;
+    width: 44%;
+  }
+}
+.what-we-do .main .heading p{
+  font-size: 35px;
+  font-family: Recoleta-font;
+}
+.what-we-do .main .short-content p{
+  color: #5c27a1;
+  font-weight: 800;
+}
+
+.what-we-do .main .content .services-list{
+  display: flex;
+  justify-content: flex-start;
+}
+/* WHAT WE DO  */
+
+/* SERVICES BANNER  */
+
+
+
+
+
+
+/* SERVICES PAGE  */
+
+
+
+
+
+
+
+
+
+
+
+
+/* CONTACT U SPAGE SECTION  */
+
+/* CONTACT PAGE BANNER */
+.contact-page{
+  background-color: #f4f4f4;
+}
+.contact-page .main {
+  background-color: #f5ddfe52;
+  padding: 1rem;
+}
+@media(max-width: 767px){
+  .contact-page{
+    background-color: #f5ddfe52;
+  }
+}
+@media (min-width: 992px) {
+  .contact-page .main {
+    width: 90%;
+    padding: 3rem 2rem;
+    margin-left: auto;
+  }
+}
+@media(min-width: 992px){
+  .contact-page .main{
+    position: relative;
+    padding: 3rem;
+  }
+  .contact-page .main .content{
+    position: absolute;
+    left: -5%;
+    top: 5%;
+    width: 44%;
+  }
+}
+.contact-page .main .heading p{
+  font-size: 35px;
+  font-family: Recoleta-font;
+}
+.contact-page .main .short-content p{
+  color: #5c27a1;
+  font-weight: 800;
+}
+
+.contact-page .main .content .contact-links .link{
+  padding: 0.5rem 0;
+}
+.contact-page .main .content .contact-links .link a{
+  color: black;
+  font-weight: 600;
+}
+.contact-page .main .content .contact-links .link a i{
+  padding-right: 8px;
+}
+/* CONTACT PAGE BANNER  */
+
+
+/* CONTACT U SPAGE SECTION  */
